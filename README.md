@@ -1,9 +1,9 @@
 
 	#include <iostream>;
 	#include <windows.h>;
-	
+
 	using namespace std;
-	
+
 	int main()
 	{
 		SetConsoleOutputCP(1251);
@@ -109,11 +109,34 @@
 		c = (float)x / y;	cout << "c = " << c << endl; // 0.857143
 		d = float(x / y);   cout << "d = " << d << endl; // 0
 	
-		*/
+		
 		cout << " " << endl;
 		cout << "ЧАСТЬ 4" << endl;
 		cout << " " << endl;
 	
+		int x = 32767, y = 13, z = 13;
+		int a = 0;
+		int b = -3000;
+		double c = 4.77;
 	
-		return 0;
+		cout << "a :" << (a == b) << endl;
+		cout << "б :" << (b < x) << endl;
+		cout << "в :" << (a != 13) << endl;
+		cout << "г :" << (x >= c) << endl;
+		cout << "д :" << (!x) << endl;
+		cout << "е :" << ((x == a) && (c < x)) << endl;
+		cout << "ж :" << ((x >= a) && (b < x)) << endl;
+		cout << "з :" << ((x == a) && (c < x)) << endl;
+		cout << "и :" << ((x >= a) + (b < x)) << endl;
+		cout << "к :" << ((x >= a) + (b < x)) << endl;
+		cout << "л :" << (x || 0) << endl;
+		cout << "м :" << (!x || 0) << endl;
+		cout << "н :" << (y++) << endl;
+		cout << "о :" << (++z) << endl;
+		cout << "п :" << (y) << endl;
+		cout << "р :" << (z) << endl;
+		cout << "с :" << (z % 5) << endl;
+		cout << "т :" << (5 % z) << endl;
+		*/
+	return 0;
 	}
